@@ -1,6 +1,90 @@
-html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
 
 body {
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #cde4f9;
+  font-size: 20px;
+  line-height: 1.4;
+}
 
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
+  color: #dc6aa1;
+  margin-top: 48px;
+}
+
+header,
+footer,
+section {
+  background-color: white;
+  border-radius: 12px;
+  max-width: 900px;
+  padding: 30px 50px;
+  margin: 20px 0;
+  justify-self: center;
+
+}
+
+.autor{
+    color: #dc6aa1;
+    text-align: center;
+}
+
+.perex{
+    color: #808080;
+    font-size: 24px;
+    text-align: center;
+}
+
+img{
+    margin: 0 20px 20px 20px;
+    border-radius: 8px;
+    width: 300px;
+    height: 225px;
+}
+
+.obrazek-zahrady{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.obrazek-pariz{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+  
+
+}
+
+.obrazek-eiffelovka,
+.obrazek-louvre{
+    float: right;
+}
+
+.obrazek-vitezny-oblouk,
+.obrazek-montmartre{
+float: left;
 }
